@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Automobil.h
+string
+-
+
+/home/razvan/Desktop/TemaPAOO/src/Automobil.cpp
+Automobil.h
+/home/razvan/Desktop/TemaPAOO/src/Automobil.h
+iostream
+-
+
+/home/razvan/Desktop/TemaPAOO/src/main.cpp
+iostream
+-
+Automobil.h
+/home/razvan/Desktop/TemaPAOO/src/Automobil.h
+
