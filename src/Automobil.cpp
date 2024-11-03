@@ -19,11 +19,11 @@ Automobil::~Automobil() {
 Automobil& Automobil::operator=(const Automobil& other) {
     // Verificam daca obiectul curent este diferit de cel copiat (pentru a evita auto-atribuirea)
     if (this != &other) {
-        std::cout << "Operator=: Începem copierea atributelor de la un alt Automobil.\n";
+        std::cout << "Operator=: Incepem copierea atributelor de la un alt Automobil.\n";
 
         // Eliberam memoria alocata anterior pentru kilometraj, dacă exista
         if (kilometraj != nullptr) {
-            std::cout << "Operator=: Eliberăm memoria existentă pentru kilometraj (" << *kilometraj << " km).\n";
+            std::cout << "Operator=: Eliberam memoria existentă pentru kilometraj (" << *kilometraj << " km).\n";
             delete kilometraj;
         }
 
@@ -34,9 +34,9 @@ Automobil& Automobil::operator=(const Automobil& other) {
 
         // Alocam memorie noua pentru kilometraj și copiem valoarea kilometrajului din obiectul sursa
         kilometraj = new int(*other.kilometraj);
-        std::cout << "Operator=: Memorie nouă alocată și kilometraj copiat: " << *kilometraj << " km\n";
+        std::cout << "Operator=: Memorie noua alocata si kilometraj copiat: " << *kilometraj << " km\n";
     } else {
-        std::cout << "Operator=: Auto-atribuire detectată, nicio acțiune necesară.\n";
+        std::cout << "Operator=: Auto-atribuire detectata, nicio actiune necesara.\n";
     }
 
     // Returnam referința la obiectul curent pentru a permite atribuiri în lanț
