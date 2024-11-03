@@ -8,5 +8,5 @@ Tema constă într-o aplicație scrisă în c++ în cadrul căreia să se aborde
 2. încapsulare 
 3. inițializarea membrilor din constructor 
 4. eliberarea heap-ului în cadrul destructorului 
-5.(cerinta noua) va trebui sa suprascriem assigment operator ( egal = sau scaderi, adunari ), 
+5. (cerinta noua) va trebui sa suprascriem assigment operator ( egal = sau scaderi, adunari ), 
 sa putem face assigment intre doua obiecte, aceleasi clase deocamdata.
