@@ -2,7 +2,7 @@
 #include "Automobil.h"
 
 int main() {
-    // Creăm mai multe obiecte Automobil folosind constructorul
+    // Cream mai multe obiecte Automobil folosind constructorul
     Automobil auto1("BMW", "F11(Seria 5)", 2012, 186890);
     Automobil auto2("Mercedes", "C-Class", 2010, 298140);
     Automobil auto3("Audi", "A4", 2019, 145678);
@@ -11,14 +11,14 @@ int main() {
     std::cout << "\n===== Testare operator de atribuire =====\n";
 
     // Folosim operatorul de atribuire pentru a copia un obiect în altul
-    Automobil auto5 = auto1;  // auto5 primește valorile din auto1
+    Automobil auto5 = auto1;  // auto5 primeste valorile din auto1
     std::cout << "Copierea lui auto1 (BMW F11) în auto5\n";
 
-    Automobil auto6 = auto2;  // auto6 primește valorile din auto2
+    Automobil auto6 = auto2;  // auto6 primeste valorile din auto2
     std::cout << "Copierea lui auto2 (Mercedes C-Class) în auto6\n";
 
-    // Afișăm detalii pentru fiecare automobil creat, inclusiv copii
-    std::cout << "\n===== Afișarea detaliilor pentru fiecare automobil =====\n";
+    // Afisam detalii pentru fiecare automobil creat, inclusiv copii
+    std::cout << "\n===== Afisarea detaliilor pentru fiecare automobil =====\n";
     std::cout << "auto1 - Marca: " << auto1.getMarca()
               << ", Model: " << auto1.getModel()
               << ", An: " << auto1.getAnFabricatie()
@@ -49,11 +49,11 @@ int main() {
               << ", An: " << auto6.getAnFabricatie()
               << ", Kilometraj: " << auto6.getKilometraj() << " km (copie a lui auto2)\n";
 
-    // Modificăm kilometrajul pentru câteva obiecte pentru a vedea efectul
-    auto1.setKilometraj(55000);  // Actualizăm kilometrajul pentru auto1
-    auto3.setKilometraj(45000);  // Actualizăm kilometrajul pentru auto3
+    // Modificam kilometrajul pentru cateva obiecte pentru a vedea efectul
+    auto1.setKilometraj(55000);  // Actualizam kilometrajul pentru auto1
+    auto3.setKilometraj(45000);  // Actualizam kilometrajul pentru auto3
 
-    // Afișăm din nou detaliile pentru a observa schimbările
+    // Afișam din nou detaliile pentru a observa schimbarile
     std::cout << "\n===== Afișarea detaliilor după modificarea kilometrajului =====\n";
     std::cout << "auto1 - Marca: " << auto1.getMarca()
               << ", Model: " << auto1.getModel()
@@ -65,8 +65,8 @@ int main() {
               << ", An: " << auto3.getAnFabricatie()
               << ", Kilometraj: " << auto3.getKilometraj() << " km (kilometraj actualizat)\n";
 
-    // Destructorii pentru fiecare obiect vor fi apelați automat la sfârșitul programului
-    std::cout << "\n===== Programul se încheie - Destructorii vor fi apelați automat =====\n";
+    // Destructorii pentru fiecare obiect vor fi apelati automat la sfarsitul programului
+    std::cout << "\n===== Programul se incheie - Destructorii vor fi apelati automat =====\n";
 
     return 0;
 }
