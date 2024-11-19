@@ -10,3 +10,6 @@ Tema constă într-o aplicație scrisă în c++ în cadrul căreia să se aborde
 4. eliberarea heap-ului în cadrul destructorului 
 5. (cerinta noua) va trebui sa suprascriem assigment operator ( egal = sau scaderi, adunari ), 
 sa putem face assigment intre doua obiecte, aceleasi clase deocamdata.
+6. copy constructor
+7. move constructor
+8. clasa care sa extinda clasa principala(subclasa care sa extinda clasa principala)
