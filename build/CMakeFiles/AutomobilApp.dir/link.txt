@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/AutomobilApp.dir/src/main.cpp.o CMakeFiles/AutomobilApp.dir/src/automobil.cpp.o  -o AutomobilApp 

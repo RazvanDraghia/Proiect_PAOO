@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/razvan/Desktop/TemaPAOO
+CMAKE_SOURCE_DIR = /home/razvan/Desktop/Vopsitorie
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/razvan/Desktop/TemaPAOO/build
+CMAKE_BINARY_DIR = /home/razvan/Desktop/Vopsitorie/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/Desktop/TemaPAOO/build/CMakeFiles /home/razvan/Desktop/TemaPAOO/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/Desktop/Vopsitorie/build/CMakeFiles /home/razvan/Desktop/Vopsitorie/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/Desktop/TemaPAOO/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/Desktop/Vopsitorie/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Automobil
+# Target rules for targets named AutomobilApp
 
 # Build rule for target.
-Automobil: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Automobil
-.PHONY : Automobil
+AutomobilApp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AutomobilApp
+.PHONY : AutomobilApp
 
 # fast build rule for target.
-Automobil/fast:
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/build
-.PHONY : Automobil/fast
+AutomobilApp/fast:
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/build
+.PHONY : AutomobilApp/fast
 
-src/Automobil.o: src/Automobil.cpp.o
+src/automobil.o: src/automobil.cpp.o
 
-.PHONY : src/Automobil.o
+.PHONY : src/automobil.o
 
 # target to build an object file
-src/Automobil.cpp.o:
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/src/Automobil.cpp.o
-.PHONY : src/Automobil.cpp.o
+src/automobil.cpp.o:
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/src/automobil.cpp.o
+.PHONY : src/automobil.cpp.o
 
-src/Automobil.i: src/Automobil.cpp.i
+src/automobil.i: src/automobil.cpp.i
 
-.PHONY : src/Automobil.i
+.PHONY : src/automobil.i
 
 # target to preprocess a source file
-src/Automobil.cpp.i:
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/src/Automobil.cpp.i
-.PHONY : src/Automobil.cpp.i
+src/automobil.cpp.i:
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/src/automobil.cpp.i
+.PHONY : src/automobil.cpp.i
 
-src/Automobil.s: src/Automobil.cpp.s
+src/automobil.s: src/automobil.cpp.s
 
-.PHONY : src/Automobil.s
+.PHONY : src/automobil.s
 
 # target to generate assembly for a file
-src/Automobil.cpp.s:
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/src/Automobil.cpp.s
-.PHONY : src/Automobil.cpp.s
+src/automobil.cpp.s:
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/src/automobil.cpp.s
+.PHONY : src/automobil.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -156,7 +156,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -165,7 +165,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +174,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -185,10 +185,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Automobil"
-	@echo "... src/Automobil.o"
-	@echo "... src/Automobil.i"
-	@echo "... src/Automobil.s"
+	@echo "... AutomobilApp"
+	@echo "... src/automobil.o"
+	@echo "... src/automobil.i"
+	@echo "... src/automobil.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

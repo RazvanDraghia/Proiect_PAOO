@@ -1,3 +1,3 @@
-/home/razvan/Desktop/TemaPAOO/build/CMakeFiles/rebuild_cache.dir
-/home/razvan/Desktop/TemaPAOO/build/CMakeFiles/edit_cache.dir
-/home/razvan/Desktop/TemaPAOO/build/CMakeFiles/Automobil.dir
+/home/razvan/Desktop/Vopsitorie/build/CMakeFiles/rebuild_cache.dir
+/home/razvan/Desktop/Vopsitorie/build/CMakeFiles/edit_cache.dir
+/home/razvan/Desktop/Vopsitorie/build/CMakeFiles/AutomobilApp.dir

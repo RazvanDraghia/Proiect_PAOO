@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/razvan/Desktop/TemaPAOO
+CMAKE_SOURCE_DIR = /home/razvan/Desktop/Vopsitorie
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/razvan/Desktop/TemaPAOO/build
+CMAKE_BINARY_DIR = /home/razvan/Desktop/Vopsitorie/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Automobil.dir/all
+all: CMakeFiles/AutomobilApp.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Automobil.dir/clean
+clean: CMakeFiles/AutomobilApp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Automobil.dir
+# Target rules for target CMakeFiles/AutomobilApp.dir
 
 # All Build rule for target.
-CMakeFiles/Automobil.dir/all:
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/depend
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/razvan/Desktop/TemaPAOO/build/CMakeFiles --progress-num=1,2,3 "Built target Automobil"
-.PHONY : CMakeFiles/Automobil.dir/all
+CMakeFiles/AutomobilApp.dir/all:
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/depend
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/razvan/Desktop/Vopsitorie/build/CMakeFiles --progress-num=1,2,3 "Built target AutomobilApp"
+.PHONY : CMakeFiles/AutomobilApp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Automobil.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/Desktop/TemaPAOO/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Automobil.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/Desktop/TemaPAOO/build/CMakeFiles 0
-.PHONY : CMakeFiles/Automobil.dir/rule
+CMakeFiles/AutomobilApp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/Desktop/Vopsitorie/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AutomobilApp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/Desktop/Vopsitorie/build/CMakeFiles 0
+.PHONY : CMakeFiles/AutomobilApp.dir/rule
 
 # Convenience name for target.
-Automobil: CMakeFiles/Automobil.dir/rule
+AutomobilApp: CMakeFiles/AutomobilApp.dir/rule
 
-.PHONY : Automobil
+.PHONY : AutomobilApp
 
 # clean rule for target.
-CMakeFiles/Automobil.dir/clean:
-	$(MAKE) -f CMakeFiles/Automobil.dir/build.make CMakeFiles/Automobil.dir/clean
-.PHONY : CMakeFiles/Automobil.dir/clean
+CMakeFiles/AutomobilApp.dir/clean:
+	$(MAKE) -f CMakeFiles/AutomobilApp.dir/build.make CMakeFiles/AutomobilApp.dir/clean
+.PHONY : CMakeFiles/AutomobilApp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
