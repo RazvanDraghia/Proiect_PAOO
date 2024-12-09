@@ -7,7 +7,7 @@ int main() {
     // crearea obiectelor automobil
     Automobil auto1("BMW", "F11(Seria 5)", 2012, "Rosu");
     MasinaDeCurse masinaDeCurse("Ferrari", "488 Pista", 2020, "Rosu", 340);
-
+    Automobil a= MasinaDeCurse("Ferrari", "488 Pista", 2020, "Rosu", 340);
     // afisam proprietattil initiale ale masinilor
     std::cout << "\n Afisam detalii initiale pentru obiectele create:\n";
     std::cout << "Automobil auto1: " << auto1.getMarca() << ", " << auto1.getModel() << ", An: " << auto1.getAnFabricatie() << ", Culoare: " << auto1.getVopsea() << "\n";
